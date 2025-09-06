@@ -1,0 +1,10 @@
+{
+  "aruco_dict": "DICT_5X5_100",
+  "squares_x": 5,
+  "squares_y": 5,
+  "square_len_mm": 35.0,
+  "marker_len_mm": 28.0,
+  "dpi": 96,
+  "margin_mm": 10.0,
+  "notes": "Print at 100% scale (no fit-to-page). Details are placed in the margin."
+}

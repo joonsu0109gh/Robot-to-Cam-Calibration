@@ -40,7 +40,7 @@ This repository provides a pipeline for performing **Eye-to-Hand calibration** b
 
 
 ## 🚀 How to Use
-
+You can check the sample outputs in `output_sample`.
 
 ### Step 1: Generate ChArUco Board
 First, generate the ChArUco board image that will be used for calibration. You can customize the board's properties (squares, marker size, DPI, etc.) in `config.yaml` to fit your needs.
