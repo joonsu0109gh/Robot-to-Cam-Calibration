@@ -1,0 +1,27 @@
+# config.yaml
+output_root_dir: "./output"
+
+board:
+  dict_name: "DICT_5X5_100"
+  squares_x: 5 # horizontal direction
+  squares_y: 5 # vertical direction
+  square_len_mm: 35.0 # maximum size for A4 paper
+  marker_len_mm: 28.0 # 0.8 * square_len_mm
+
+print:
+  dpi: 96
+  margin_mm: 10.0
+  show_ids_on_board: false
+  show_preview: true
+
+camera:
+  fps: 30
+  width: 1280
+  height: 720
+  exposure_settle_sec: 3.0
+  min_corners_to_save: 12
+  use_refinement: true
+  series_name: "realsense_rgb"
+
+robot:
+  hostname: "172.16.0.2"
