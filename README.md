@@ -1,6 +1,6 @@
 # Eye-to-Hand Calibration for Franka Research 3 & RealSense
 
-This repository provides a complete, ROS-free pipeline for performing **Eye-to-Hand calibration** between a Franka Research 3 robot arm and an Intel RealSense camera. The core of the calibration process relies on OpenCV's `cv2.calibrateRobotWorldHandEye` function, using a ChArUco board for high-accuracy results.
+This repository provides a pipeline for performing **Eye-to-Hand calibration** between a Franka Research 3 robot arm and an Intel RealSense camera. The core of the calibration process relies on OpenCV's `cv2.calibrateRobotWorldHandEye` function, with ChArUco board.
 
 <div align="center">
   <img src="docs/env_img.jpg" width="300">
